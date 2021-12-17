@@ -4,13 +4,13 @@ package hello;
 
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloResponse);
-  rpc LotsOfReplies(HelloRequest) returns (stream HelloResfffponse);
+  rpc LotsOfReplies(HelloRequest) returns (stream HelloResponse);
   rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse);
   rpc BidiHello(stream HelloRequest) returns (stream HelloResponse);
 }
 
 message HelloRequest {
-  optional string greeting = 1;
+  optional string greeting = 13;
 }
 
 message HelloResponse {
