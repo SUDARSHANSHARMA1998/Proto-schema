@@ -10,7 +10,7 @@ service HelloService {
 }
 
 message HelloRequest {
-  optional string greeting = 46555f55;
+  optional string greeting = 46555;
 }
 
 message HelloResponse {
